@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="odgi.cms">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Bus"
+            android:label="@string/title_activity_bus" />
+        <activity
+            android:name=".Route2"
+            android:label="@string/title_activity_route2" />
+        <activity
+            android:name=".Route3"
+            android:label="@string/title_activity_route3" />
+        <activity
+            android:name=".Route4"
+            android:label="@string/title_activity_route4" />
+        <activity
+            android:name=".Route5"
+            android:label="@string/title_activity_route5" />
+        <activity
+            android:name=".RoutineDept"
+            android:label="@string/title_activity_routine_dept" />
+        <activity
+            android:name=".Teachers"
+            android:label="@string/title_activity_teachers" />
+        <activity
+            android:name=".SampleQuestions"
+            android:label="@string/title_activity_sample_questions" />
+        <activity
+            android:name=".Canteen"
+            android:label="@string/title_activity_canteen" />
+        <activity
+            android:name=".Exam"
+            android:label="@string/title_activity_exam" />
+        <activity
+            android:name=".Route1"
+            android:label="@string/title_activity_route1" />
+        <activity
+            android:name=".Rcse"
+            android:label="@string/title_activity_rcse" />
+        <activity
+            android:name=".Rece"
+            android:label="@string/title_activity_rece" />
+        <activity
+            android:name=".Rciv"
+            android:label="@string/title_activity_rciv" />
+        <activity
+            android:name=".Rme"
+            android:label="@string/title_activity_rme" />
+        <activity
+            android:name=".Rarch"
+            android:label="@string/title_activity_rarch" />
+        <activity
+            android:name=".Library"
+            android:label="@string/title_activity_library" />
+        <activity
+            android:name=".Lcse"
+            android:label="@string/title_activity_lcse" />
+        <activity
+            android:name=".Lece"
+            android:label="@string/title_activity_lece" />
+        <activity
+            android:name=".Lciv"
+            android:label="@string/title_activity_lciv" />
+        <activity
+            android:name=".Lme"
+            android:label="@string/title_activity_lme" />
+        <activity
+            android:name=".Larch"
+            android:label="@string/title_activity_larch" />
+        <activity
+            android:name=".Notice"
+            android:label="@string/title_activity_notice" />
+        <activity
+            android:name=".Tcse"
+            android:label="@string/title_activity_tcse" />
+        <activity
+            android:name=".Tece"
+            android:label="@string/title_activity_tece" />
+        <activity
+            android:name=".Tciv"
+            android:label="@string/title_activity_tciv" />
+        <activity
+            android:name=".Tme"
+            android:label="@string/title_activity_tme" />
+        <activity
+            android:name=".Tarch"
+            android:label="@string/title_activity_tarch" />
+        <activity
+            android:name=".Thonours"
+            android:label="@string/title_activity_thonours" />
+        <activity
+            android:name=".D_hazra"
+            android:label="@string/title_activity_d_hazra" />
+        <activity
+            android:name=".S_chattaraj"
+            android:label="@string/title_activity_s_chattaraj" />
+        <activity
+            android:name=".S_pahari"
+            android:label="@string/title_activity_s_pahari" />
+        <activity
+            android:name=".S_roy"
+            android:label="@string/title_activity_s_roy" />
+        <activity
+            android:name=".A_pal"
+            android:label="@string/title_activity_a_pal" />
+        <activity
+            android:name=".P_de"
+            android:label="@string/title_activity_p_de" />
+        <activity
+            android:name=".K_dey"
+            android:label="@string/title_activity_k_dey" />
+        <activity
+            android:name=".Swarupa_Ojha"
+            android:label="@string/title_activity_swarupa__ojha" />
+        <activity
+            android:name=".Sukanta_Ghosh"
+            android:label="@string/title_activity_sukanta__ghosh" />
+        <activity
+            android:name=".Sudipta_Chatterjee"
+            android:label="@string/title_activity_sudipta__chatterjee" />
+        <activity
+            android:name=".Debansu_Jana"
+            android:label="@string/title_activity_debansu__jana" />
+        <activity
+            android:name=".Poulomi_Das"
+            android:label="@string/title_activity_poulomi__das" />
+        <activity
+            android:name=".Srutiparna_Neogi"
+            android:label="@string/title_activity_srutiparna__neogi" />
+        <activity
+            android:name=".Swapan_Majumder"
+            android:label="@string/title_activity_swapan__majumder" />
+        <activity
+            android:name=".M_Mukherjee"
+            android:label="@string/title_activity_m__mukherjee" />
+        <activity
+            android:name=".G_Bondyopadhyay"
+            android:label="@string/title_activity_g__bondyopadhyay" />
+        <activity
+            android:name=".SN_Roy"
+            android:label="@string/title_activity_sn__roy" />
+        <activity
+            android:name=".Supravat_Chatterjee"
+            android:label="@string/title_activity_supravat__chatterjee" />
+        <activity
+            android:name=".Srijan_Mukherjee"
+            android:label="@string/title_activity_srijan__mukherjee" />
+        <activity
+            android:name=".Subrata_Haldar"
+            android:label="@string/title_activity_subrata__haldar" />
+        <activity
+            android:name=".Nilmoni_Goswami"
+            android:label="@string/title_activity_nilmoni__goswami" />
+        <activity
+            android:name=".Jayanta_Ghoshal"
+            android:label="@string/title_activity_jayanta__ghoshal" />
+        <activity
+            android:name=".Pampa_Sen"
+            android:label="@string/title_activity_pampa__sen" />
+        <activity
+            android:name=".Samiran_Maity"
+            android:label="@string/title_activity_samiran__maity" />
+        <activity
+            android:name=".Aniruddha_Sarkar"
+            android:label="@string/title_activity_aniruddha__sarkar" />
+        <activity
+            android:name=".Ramen_Kanti_De"
+            android:label="@string/title_activity_ramen__kanti__de" />
+        <activity
+            android:name=".Parthasarathi_Chattopadhyay"
+            android:label="@string/title_activity_parthasarathi__chattopadhyay" />
+        <activity
+            android:name=".Ranjit_Barua"
+            android:label="@string/title_activity_ranjit__barua" />
+        <activity
+            android:name=".Prasenjit_Das"
+            android:label="@string/title_activity_prasenjit__das" />
+        <activity
+            android:name=".Kalyan_Kr_Mukherjee"
+            android:label="@string/title_activity_kalyan__kr__mukherjee" />
+        <activity
+            android:name=".Bhaskar_Chatterjee"
+            android:label="@string/title_activity_bhaskar__chatterjee" />
+        <activity
+            android:name=".Arnab_Jana"
+            android:label="@string/title_activity_arnab__jana" />
+        <activity
+            android:name=".Suranjana_Chaudhuri"
+            android:label="@string/title_activity_suranjana__chaudhuri" />
+        <activity
+            android:name=".Biswajit_Chakrabarty"
+            android:label="@string/title_activity_biswajit__chakrabarty" />
+        <activity
+            android:name=".Abhiroop_Das"
+            android:label="@string/title_activity_abhiroop__das" />
+        <activity
+            android:name=".Suparna_Bhattacharya"
+            android:label="@string/title_activity_suparna__bhattacharya" />
+        <activity
+            android:name=".Sandipan_Sinha"
+            android:label="@string/title_activity_sandipan__sinha" />
+        <activity
+            android:name=".Kaustubh_Das"
+            android:label="@string/title_activity_kaustubh__das" />
+        <activity
+            android:name=".Shalini_Nag"
+            android:label="@string/title_activity_shalini__nag" />
+        <activity
+            android:name=".Rituparna_Dasgupta"
+            android:label="@string/title_activity_rituparna__dasgupta" />
+        <activity
+            android:name=".Pranab_Biswas"
+            android:label="@string/title_activity_pranab__biswas" />
+        <activity
+            android:name=".Amrita_Mukherjee"
+            android:label="@string/title_activity_amrita__mukherjee" />
+        <activity
+            android:name=".Soumyaditya_Sutradhar"
+            android:label="@string/title_activity_soumyaditya__sutradhar" />
+        <activity
+            android:name=".Prosenjit_Sen"
+            android:label="@string/title_activity_prosenjit__sen" />
+        <activity
+            android:name=".Debjyoti_Lahari"
+            android:label="@string/title_activity_debjyoti__lahari" />
+        <activity
+            android:name=".Monita_Mitra"
+            android:label="@string/title_activity_monita__mitra" />
+        <activity
+            android:name=".Saranya_Ghosh"
+            android:label="@string/title_activity_saranya__ghosh" />
+        <activity
+            android:name=".Cse_lib_1st_yr"
+            android:label="@string/title_activity_cse_lib_1st_yr" />
+        <activity
+            android:name=".Cse_lib_2nd_yr"
+            android:label="@string/title_activity_cse_lib_2nd_yr" />
+        <activity
+            android:name=".Cse_lib_3rd_yr"
+            android:label="@string/title_activity_cse_lib_3rd_yr" />
+        <activity
+            android:name=".Cse_lib_4th_yr"
+            android:label="@string/title_activity_cse_lib_4th_yr" />
+        <activity
+            android:name=".Ece_lib_1st_yr"
+            android:label="@string/title_activity_ece_lib_1st_yr" />
+        <activity
+            android:name=".Ece_lib_2nd_yr"
+            android:label="@string/title_activity_ece_lib_2nd_yr" />
+        <activity
+            android:name=".Ece_lib_3rd_yr"
+            android:label="@string/title_activity_ece_lib_3rd_yr" />
+        <activity
+            android:name=".Ece_lib_4th_yr"
+            android:label="@string/title_activity_ece_lib_4th_yr" />
+        <activity
+            android:name=".Civ_lib_1st_yr"
+            android:label="@string/title_activity_civ_lib_1st_yr" />
+        <activity
+            android:name=".Civ_lib_2nd_yr"
+            android:label="@string/title_activity_civ_lib_2nd_yr" />
+        <activity
+            android:name=".Civ_lib_3rd_yr"
+            android:label="@string/title_activity_civ_lib_3rd_yr" />
+        <activity
+            android:name=".Civ_lib_4th_yr"
+            android:label="@string/title_activity_civ_lib_4th_yr" />
+        <activity
+            android:name=".Me_lib_1st_yr"
+            android:label="@string/title_activity_me_lib_1st_yr" />
+        <activity
+            android:name=".Me_lib_2nd_yr"
+            android:label="@string/title_activity_me_lib_2nd_yr" />
+        <activity
+            android:name=".Me_lib_3rd_yr"
+            android:label="@string/title_activity_me_lib_3rd_yr" />
+        <activity
+            android:name=".Me_lib_4th_yr"
+            android:label="@string/title_activity_me_lib_4th_yr" />
+        <activity
+            android:name=".Arch_lib_1st_yr"
+            android:label="@string/title_activity_arch_lib_1st_yr" />
+        <activity
+            android:name=".Arch_lib_2nd_yr"
+            android:label="@string/title_activity_arch_lib_2nd_yr" />
+        <activity
+            android:name=".Arch_lib_3rd_yr"
+            android:label="@string/title_activity_arch_lib_3rd_yr" />
+        <activity
+            android:name=".Arch_lib_4th_yr"
+            android:label="@string/title_activity_arch_lib_4th_yr" />
+        <activity
+            android:name=".Arch_lib_5th_yr"
+            android:label="@string/title_activity_arch_lib_5th_yr" />
+        <activity
+            android:name=".Ebooks"
+            android:label="@string/title_activity_ebooks" />
+        <activity
+            android:name=".Ebcse"
+            android:label="@string/title_activity_ebcse" />
+        <activity
+            android:name=".Ebece"
+            android:label="@string/title_activity_ebece" />
+        <activity
+            android:name=".Ebciv"
+            android:label="@string/title_activity_ebciv" />
+        <activity
+            android:name=".Ebme"
+            android:label="@string/title_activity_ebme" />
+        <activity
+            android:name=".Ebarch"
+            android:label="@string/title_activity_ebarch" />
+        <activity
+            android:name=".Cse_eb_1st_yr"
+            android:label="@string/title_activity_cse_eb_1st_yr" />
+        <activity
+            android:name=".Cse_eb_2nd_yr"
+            android:label="@string/title_activity_cse_eb_2nd_yr" />
+        <activity
+            android:name=".Cse_eb_3rd_yr"
+            android:label="@string/title_activity_cse_eb_3rd_yr" />
+        <activity
+            android:name=".Cse_eb_4th_yr"
+            android:label="@string/title_activity_cse_eb_4th_yr" />
+        <activity
+            android:name=".Ece_eb_1st_yr"
+            android:label="@string/title_activity_ece_eb_1st_yr" />
+        <activity
+            android:name=".Ece_eb_2nd_yr"
+            android:label="@string/title_activity_ece_eb_2nd_yr" />
+        <activity
+            android:name=".Ece_eb_3rd_yr"
+            android:label="@string/title_activity_ece_eb_3rd_yr" />
+        <activity
+            android:name=".Ece_eb_4th_yr"
+            android:label="@string/title_activity_ece_eb_4th_yr" />
+        <activity
+            android:name=".Civ_eb_1st_yr"
+            android:label="@string/title_activity_civ_eb_1st_yr" />
+        <activity
+            android:name=".Civ_eb_2nd_yr"
+            android:label="@string/title_activity_civ_eb_2nd_yr" />
+        <activity
+            android:name=".Civ_eb_3rd_yr"
+            android:label="@string/title_activity_civ_eb_3rd_yr" />
+        <activity
+            android:name=".Civ_eb_4th_yr"
+            android:label="@string/title_activity_civ_eb_4th_yr" />
+        <activity
+            android:name=".Me_eb_1st_yr"
+            android:label="@string/title_activity_me_eb_1st_yr" />
+        <activity
+            android:name=".Me_eb_2nd_yr"
+            android:label="@string/title_activity_me_eb_2nd_yr" />
+        <activity
+            android:name=".Me_eb_3rd_yr"
+            android:label="@string/title_activity_me_eb_3rd_yr" />
+        <activity
+            android:name=".Me_eb_4th_yr"
+            android:label="@string/title_activity_me_eb_4th_yr" />
+        <activity
+            android:name=".Arch_eb_1st_yr"
+            android:label="@string/title_activity_arch_eb_1st_yr" />
+        <activity
+            android:name=".Arch_eb_2nd_yr"
+            android:label="@string/title_activity_arch_eb_2nd_yr" />
+        <activity
+            android:name=".Arch_eb_3rd_yr"
+            android:label="@string/title_activity_arch_eb_3rd_yr" />
+        <activity
+            android:name=".Arch_eb_4th_yr"
+            android:label="@string/title_activity_arch_eb_4th_yr" />
+        <activity
+            android:name=".Notes"
+            android:label="@string/title_activity_notes" />
+        <activity
+            android:name=".Ncse"
+            android:label="@string/title_activity_ncse" />
+        <activity
+            android:name=".Nece"
+            android:label="@string/title_activity_nece" />
+        <activity
+            android:name=".Nciv"
+            android:label="@string/title_activity_nciv" />
+        <activity
+            android:name=".Nme"
+            android:label="@string/title_activity_nme" />
+        <activity
+            android:name=".Narch"
+            android:label="@string/title_activity_narch" />
+        <activity
+            android:name=".Arch_n_1st_yr"
+            android:label="@string/title_activity_arch_n_1st_yr" />
+        <activity
+            android:name=".Arch_n_2nd_yr"
+            android:label="@string/title_activity_arch_n_2nd_yr" />
+        <activity
+            android:name=".Arch_n_3rd_yr"
+            android:label="@string/title_activity_arch_n_3rd_yr" />
+        <activity
+            android:name=".Arch_n_4th_yr"
+            android:label="@string/title_activity_arch_n_4th_yr" />
+        <activity
+            android:name=".Me_notes_1st_yr"
+            android:label="@string/title_activity_me_notes_1st_yr" />
+        <activity
+            android:name=".Me_notes_2nd_yr"
+            android:label="@string/title_activity_me_notes_2nd_yr" />
+        <activity
+            android:name=".Me_notes_3rd_yr"
+            android:label="@string/title_activity_me_notes_3rd_yr" />
+        <activity
+            android:name=".Me_notes_4th_yr"
+            android:label="@string/title_activity_me_notes_4th_yr" />
+        <activity
+            android:name=".Civ_notes_1st_yr"
+            android:label="@string/title_activity_civ_notes_1st_yr" />
+        <activity
+            android:name=".Civ_notes_2nd_yr"
+            android:label="@string/title_activity_civ_notes_2nd_yr" />
+        <activity
+            android:name=".Civ_notes_3rd_yr"
+            android:label="@string/title_activity_civ_notes_3rd_yr" />
+        <activity
+            android:name=".Civ_notes_4th_yr"
+            android:label="@string/title_activity_civ_notes_4th_yr" />
+        <activity
+            android:name=".Ece_notes_1st_yr"
+            android:label="@string/title_activity_ece_notes_1st_yr" />
+        <activity
+            android:name=".Ece_notes_2nd_yr"
+            android:label="@string/title_activity_ece_notes_2nd_yr" />
+        <activity
+            android:name=".Ece_notes_3rd_yr"
+            android:label="@string/title_activity_ece_notes_3rd_yr" />
+        <activity
+            android:name=".Ece_notes_4th_yr"
+            android:label="@string/title_activity_ece_notes_4th_yr" />
+        <activity
+            android:name=".Cse_notes_1st_yr"
+            android:label="@string/title_activity_cse_notes_1st_yr" />
+        <activity
+            android:name=".Cse_notes_2nd_yr"
+            android:label="@string/title_activity_cse_notes_2nd_yr" />
+        <activity
+            android:name=".Cse_notes_3rd_yr"
+            android:label="@string/title_activity_cse_notes_3rd_yr" />
+        <activity
+            android:name=".Cse_notes_4th_yr"
+            android:label="@string/title_activity_cse_notes_4th_yr" />
+        <activity
+            android:name=".Arch_n_5th_yr"
+            android:label="@string/title_activity_arch_n_5th_yr" />
+        <activity
+            android:name=".Arch_eb_5th_yr"
+            android:label="@string/title_activity_arch_eb_5th_yr" />
+        <activity
+            android:name=".ViewAttendance"
+            android:label="@string/title_activity_view_attendance" />
+        <activity
+            android:name=".Lessonplans"
+            android:label="@string/title_activity_lessonplans" />
+        <activity
+            android:name=".Pradipta_Biswas"
+            android:label="@string/title_activity_pradipta__biswas"></activity>
+    </application>
+
+</manifest>
